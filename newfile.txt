@@ -1,2 +1,4 @@
 MDJMP Perez
-hello
+Hello World!
+
+Today's lesson is about Git and Github
