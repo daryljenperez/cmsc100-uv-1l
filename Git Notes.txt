@@ -5,6 +5,7 @@ do some changes to file
 
 > git add -A # adds all changed files to index
 > git commit -m "message" #commits all files in index
+> git push <remote> <branch>
 
 (working directory is now clean)
 
@@ -12,3 +13,14 @@ Branches:
 	> git branch # shows us available branches and active branch
 	> git checkout <branch name> # switch to branch
 		git checkout -b <new branch name>
+
+Merging
+	Applying the changes in one branch to another branch
+	Source branch --> Target Branch
+
+	> git checkout <target branch>
+	> git merge <source branch> # merge changes from source branch
+
+	Remote Repositories
+	> Git rmeote add orgin <url> # add the specified url as a remote reposidtory and name it 'origin'
+	> git push origin <remote> <branch> # push the local commits to the remote called origin, specifically, the master branch
